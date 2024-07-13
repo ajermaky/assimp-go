@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"image/png"
 
-	"github.com/bloeys/assimp-go/asig"
+	"github.com/ajermaky/assimp-go/v2/asig"
 )
 
 func main() {
