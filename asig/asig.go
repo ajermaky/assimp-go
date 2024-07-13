@@ -6,6 +6,7 @@ package asig
 #cgo windows,amd64 LDFLAGS: -l assimp_windows_amd64
 #cgo darwin,amd64 LDFLAGS: -l assimp_darwin_amd64
 #cgo darwin,arm64 LDFLAGS: -l assimp_darwin_arm64
+#cgo linux,amd64 LDFLAGS: -l assimp
 
 #include "wrap.c"
 #include <stdlib.h>
